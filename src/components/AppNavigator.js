@@ -2,7 +2,8 @@ import React from 'react';
 import {createStackNavigator} from "@react-navigation/stack";
 import {NavigationContainer} from "@react-navigation/native";
 import imageScreen from "../screen/imageScreen";
-import galerryScreen from "../screen/galerryScreen";
+import 
+Screen from "../screen/galerryScreen";
 const Stack = createStackNavigator();
 
 
