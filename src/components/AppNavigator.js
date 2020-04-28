@@ -2,10 +2,9 @@ import React from 'react';
 import {createStackNavigator} from "@react-navigation/stack";
 import {NavigationContainer} from "@react-navigation/native";
 import imageScreen from "../screen/imageScreen";
-import 
-Screen from "../screen/galerryScreen";
+import galerryScreen from "../screen/galerryScreen";
 const Stack = createStackNavigator();
-
+ 
 
 const AppNavigator = () => (
         <NavigationContainer>
@@ -19,3 +18,4 @@ const AppNavigator = () => (
 
 export default AppNavigator;
 
+ 
